@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+
+/* Estilos asociados al encabezado */
+
+#header {
+    /* propiedad que permite alterar la altura */
+    height: 100vh;
+    background-color: black;
+    background-image: url("../img/header_background.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#header h1 {
+    color: white;
+    margin: 0;
+    padding: 0 20%;
+    font-size: 25px;
+}
+
+#main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#main p {
+    font-size: 20px;
+}
+
+#main h1 {
+    font-size: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: 900px;
+}
+
+#spoiler {
+    font-family: 'Inconsolata', monospace;
+}
+
+
+/*Diseño responsive*/
+
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        padding: 0 1%;
+        font-size: 40px;
+    }
+    #main {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #main p {
+        font-size: 16px;
+    }
+    #main h1 {
+        font-size: 35px;
+    }
+}
